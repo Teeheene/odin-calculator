@@ -1,0 +1,65 @@
+
+header {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+header, footer {
+	width: 300px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+/* CALCULATOR CALCULATOR CALCULATOR CALCULATOR CALCULATOR CALCULATOR CALCULATOR CALCULATOR CALCULATOR*/
+#container {
+	width: 300px;
+	outline: 5px solid #f092bf;
+	border-radius: 2px;
+	background-color: #fce6f1;
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	padding: 24px 13px;
+	margin: 0 auto;
+}
+
+.screen {
+	outline: 2px solid #f092bf;
+	border-radius: 5px;
+	background-color: white;
+	text-align: right;
+	font-size: 30px;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	min-height: 34px;
+	overflow: scroll;
+	overflow-x: auto;
+	scrollbar-width: none;
+	overflow-y: hidden;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+	gap: 5px;
+}
+
+.row button {
+	all: unset;
+	background-color: #f5abcf;
+	border-radius: 5px;
+	padding: 10px;
+	font-size: 30px;
+	width: 100px;
+
+	box-shadow: 2px 2px 0px rgba(235,152,192,0.3);
+	text-align: center;
+}
+
+.row button:active {
+	background-color: #eb98c0;
+	border-radius: 6px;
+	font-size: 28px;
+	box-shadow: 1px 1px 0px rgba(235,152,192,0.3);
+}
+
