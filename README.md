@@ -1,7 +1,7 @@
 # Calculator
 
 This project is a calculator a simple calculator that evaluates mathematical expressions written in **infix notation**  
-(e.g., `3 + 4 * (2 - 1)`) using a **Two-Stack Algorithm**.
+(e.g., `3 + 4 * 2 - 1`) using a **Two-Stack Algorithm**.
 
 ## Features
 
